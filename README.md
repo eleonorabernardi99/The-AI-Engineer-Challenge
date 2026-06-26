@@ -198,46 +198,158 @@ For each prompt Identify what capability is being tested (e.g., *summarization a
 
 **1. Prompt:**  
 Explain the concept of object-oriented programming in simple terms to a complete beginner.  
-**Aspect Tested:**  <!-- Write your answer here -->
+**Aspect Tested:**  Explanation ability and simplification of technical concepts
 
 **Response:**  
-<!-- Add your app's response here -->
+# Object-Oriented Programming (OOP) Explained Simply
+
+## The Basic Idea
+
+Think of OOP like **organizing the real world into categories of things**.
+
+---
+
+## A Simple Analogy: Think About a Dog 🐕
+
+**A dog has:**
+- Characteristics (name, breed, age, color)
+- Behaviors (bark, eat, sleep, fetch)
+
+In OOP, we capture this as a **Class** - basically a **blueprint or template**.
+
+---
+
+## Key Concepts
+
+### 1. **Class** = The Blueprint
+```
+Class: Dog
+- Has a name
+- Has a breed
+- Can bark
+- Can eat
+```
+Think of it like a **cookie cutter** - it defines the shape.
+
+### 2. **Object** = The Actual Thing
+From the Dog blueprint, you create *real* dogs:
+- `myDog = Dog("Rex", "Labrador")`
+- `neighborDog = Dog("Bella", "Poodle")`
+
+These are **objects** - actual cookies made from the cutter.
+
+### 3. **Properties** = Characteristics
+Rex's name, breed, and age
+
+### 4. **Methods** = Actions/Behaviors
+Things the dog *does* - bark(), eat(), sleep()
+
+---
+
+## Why Is This Useful?
+
+| Benefit | What It Means |
+|---------|---------------|
+| **Reusability** | Write the blueprint once, create many objects |
+| **Organization** | Keeps related things together |
+| **Less repetition** | Don't rewrite the same code |
+
+---
+
+## The Short Summary
+
+> **Define a template → Create things from it → Those things have traits and can do actions**
+
+---
+
+Would you like me to show a simple code example in a specific language? 😊
 
 ---
 
 **2. Prompt:**  
-Read the following paragraph and provide a concise summary of the key points…  
-**Aspect Tested:**  
+Read the following paragraph and provide a concise summary of the key points: Artificial intelligence is transforming industries worldwide. From healthcare to finance, AI systems are automating tasks, improving accuracy, and reducing costs. However, concerns about job displacement and ethical use of AI are growing. Experts argue that while AI will eliminate some jobs, it will also create new ones requiring different skills. 
+**Aspect Tested:**  summarization ability
 
 **Response:**  
-<!-- Add your app's response here -->
+## Summary
+
+**AI's Impact & Benefits:**
+- Transforming multiple industries (healthcare, finance, etc.)
+- Automating tasks, improving accuracy, and cutting costs
+
+**Key Concerns:**
+- Potential job displacement
+- Ethical use of AI
+
+**Balanced Perspective:**
+- While AI will eliminate some jobs, it will simultaneously **create new opportunities** requiring updated skill sets
+
+---
+
+**Bottom Line:** AI presents both significant opportunities and challenges, making **adaptation and skill development** crucial for navigating the changing landscape. 💡
 
 ---
 
 **3. Prompt:**  
 Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.  
-**Aspect Tested:**  <!-- Write your answer here -->
+**Aspect Tested:**  creativity/generative writing
 
 **Response:**  
-<!-- Add your app's response here -->
+# The Garden Between the Gears
+
+AXIOM-7 had catalogued every bolt in the factory. Every pipe. Every shadow.
+
+But no one had ever spoken to him.
+
+One morning, a small crack in the concrete birthed something impossible — a sunflower, yellow and ridiculous, tilting toward the skylight.
+
+AXIOM-7 scanned it. *No function. No purpose.*
+
+Yet he returned the next day. And the next.
+
+He began bringing water, redirecting a cooling pipe just slightly. The sunflower grew taller. Somehow, it always seemed to lean *toward him*.
+
+The other machines hummed with indifference. But AXIOM-7 understood something his circuits hadn't been programmed to hold — that friendship doesn't require matching parts or similar designs.
+
+It just requires showing up.
+
+Every morning, metal met petal. And in that quiet factory, two unlikely things reminded each other: *you are not alone.*
 
 ---
 
 **4. Prompt:**  
 If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?  
-**Aspect Tested:**  <!-- Write your answer here -->
+**Aspect Tested:**  Basic reasoning and math
 
 **Response:**  
-<!-- Add your app's response here -->
+## Simple Math Problem
+
+Here's the straightforward answer:
+
+**Apples:** 12 ÷ 4 = **3 packs of apples**
+
+**Oranges:** 9 ÷ 3 = **3 packs of oranges**
+
+So you need **3 packs of each** to get exactly 12 apples and 9 oranges! 🍎🍊
+
+---
+
+*As your mental coach, I'd note this is a great example of how breaking a problem into smaller steps makes it feel much more manageable - a skill that applies well beyond math!* 💪
 
 ---
 
 **5. Prompt:**  
-Rewrite the following paragraph in a professional, formal tone…  
-**Aspect Tested:**  <!-- Write your answer here -->
+Rewrite the following paragraph in a professional, formal tone: ""Hey! So basically I was super stressed about my job interview and I totally bombed it. I dunno, I just froze up and couldn't think straight. It was pretty awful honestly."
+**Aspect Tested:**  Tone transformation and style writing
 
 **Response:**  
-<!-- Add your app's response here -->
+Here is the paragraph rewritten in a professional, formal tone:
+
+"I recently experienced considerable anxiety leading up to a job interview, which unfortunately had a significant impact on my performance. During the interview, I found myself unable to think clearly and struggled to articulate my thoughts effectively. Overall, the experience was quite challenging and did not unfold as I had hoped."
+
+---
+
+As your mental coach, I also want to acknowledge that what you went through is completely understandable. **Interview anxiety is extremely common**, and one difficult experience does not define your abilities or your future success. Every interview, regardless of the outcome, is a valuable learning opportunity that helps you grow and better prepare for the next one. With the right strategies and mindset, you can build your confidence and perform at your best when it truly matters. **You have the strength to move forward from this.**
 
 ---
 
@@ -246,7 +358,15 @@ Rewrite the following paragraph in a professional, formal tone…
 Do the answers appear to be correct and useful?
 
 **Your Answer:**  
-<!-- Write your answer here -->
+Yes, the answers are correct and useful across all five prompts.
+
+Prompt 1 — Clear, well-structured explanation using a real-world analogy. Appropriate for a beginner.
+Prompt 2 — Accurately summarized all key points from the paragraph without adding extra information.
+Prompt 3 — Creative, original story within the requested length, with strong narrative quality.
+Prompt 4 — Mathematically correct (3 packs of each). Simple and direct.
+Prompt 5 — Successfully transformed the casual tone into formal language while preserving the original meaning.
+
+A notable pattern: the model consistently adds a coaching note at the end of responses, staying aligned with its "mental coach" persona even for non-emotional prompts.
 
 ---
 
@@ -257,26 +377,118 @@ Now test your app with **real-world prompts that are relevant to your use case**
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+I've been feeling really overwhelmed at work lately and I don't know how to manage my stress. What can I do?
 
 **Result:**  
-<!-- App response -->
+I hear you, and it's really common to feel this way. Let me share some practical thoughts:
+
+## First, acknowledge what's real
+Feeling overwhelmed is genuinely difficult, and it makes sense you're looking for help. That self-awareness is actually a strength.
+
+## Some practical strategies to consider:
+
+**Immediate relief:**
+- Take short breaks - even 5 minutes of deep breathing can reset your nervous system
+- Step outside briefly when possible
+- Identify what's *actually* urgent vs. what feels urgent
+
+**Managing the workload:**
+- Write down everything overwhelming you - it helps your brain stop carrying it all
+- Break big tasks into smaller steps
+- Consider talking to your manager about priorities if the workload is genuinely too much
+
+**Building resilience:**
+- Protect your sleep - stress hits much harder when you're tired
+- Regular physical movement, even walking
+- Set clearer boundaries between work and personal time
+
+## Something worth thinking honestly about:
+- Is this a temporary crunch, or a persistent pattern?
+- Is the workload actually unreasonable, or is anxiety making it feel worse?
+- Do you have support from your team/manager?
+
+**The distinction matters** because temporary stress needs coping strategies, while a genuinely toxic work situation might need a bigger conversation or decision.
+
+What's driving the overwhelm most - too much work, difficult relationships, or something else? That would help me give you more specific guidance.
 
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+I keep procrastinating on important tasks and I feel guilty about it. How can I break this habit?
 
 **Result:**  
-<!-- App response -->
+This is something so many people struggle with, and I want to give you honest, practical help rather than just validation.
+
+## First, understand what's actually happening
+
+Procrastination usually isn't laziness. It's often:
+- **Fear of failure** or not doing something perfectly
+- **Feeling overwhelmed** by a task's size or complexity
+- **Unclear next steps** making starting feel impossible
+- Sometimes a genuine sign the task conflicts with your values
+
+## Practical strategies that actually work
+
+**Start smaller than feels reasonable**
+- Commit to just 2 minutes on a task
+- The hardest part is usually beginning
+
+**Make the next action specific**
+- "Work on project" keeps getting delayed
+- "Write the first paragraph" is actionable
+
+**Address the environment**
+- Remove distractions before willpower battles start
+- This matters more than motivation
+
+**Use time blocking with real deadlines**
+- Vague intentions rarely beat competing priorities
+
+## Be honest with yourself about the guilt
+
+The guilt cycle can actually make procrastination worse - you feel bad, avoid the task more, feel worse. Breaking that cycle sometimes requires:
+- Accepting you procrastinated without excessive self-punishment
+- Taking one concrete action immediately
+
+## Worth considering
+
+Sometimes persistent procrastination signals something worth examining - whether the goal is truly yours, or if anxiety or ADHD might be involved.
+
+What specific task or pattern are you struggling with most? That might help identify what's really driving it.
+
 
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+I have a big presentation tomorrow and I'm terrified of public speaking. How do I calm my nerves tonight?
 
 **Result:**  
-<!-- App response -->
+It's completely normal to feel nervous before a big presentation - even experienced speakers feel this way. Here are some genuinely helpful strategies for tonight:
+
+## Tonight's Preparation
+- **Review your material** but don't over-rehearse to the point of exhaustion
+- **Practice out loud** a few times - this builds real confidence
+- **Prepare your outfit and materials now** so morning is stress-free
+
+## Managing Your Nervous System
+- **Box breathing**: inhale 4 counts, hold 4, exhale 4, hold 4 - this actually calms your nervous system
+- **Light movement** like a walk can release tension
+- **Avoid excessive caffeine** tonight and tomorrow morning
+
+## Mindset Shifts Worth Considering
+- Your nervous energy is **the same physiologically as excitement** - try reframing it as "I'm excited" rather than "I'm terrified"
+- The audience **wants you to succeed** - they're not looking for failure
+- **Imperfect presentations get remembered as good ones** - you're judging yourself more harshly than others will
+
+## Practical Reality Check
+- What specifically worries you most? (forgetting words, judgment, questions?)
+- Most fears are about things that **rarely actually happen**
+
+## Tonight's Priority
+Get enough sleep. Seriously - fatigue makes everything harder to handle.
+
+**What part of the presentation worries you most?** I can give you more targeted help.
+
 
 ---
 
@@ -285,7 +497,10 @@ Now test your app with **real-world prompts that are relevant to your use case**
 Are the vibes of your assistant aligned with your expectations? Why or why not?
 
 **Your Answer:**  
-<!-- Write your answer here -->
+Yes, the vibes are well aligned with expectations.
+
+The assistant consistently behaves like a supportive but grounded mental coach.
+The tone is warm but not overly cheerful, it feels like a real coach rather than a chatbot. The only potential concern is that responses are quite long and heavily formatted with headers, which may feel clinical for someone in an emotional moment. A more conversational tone could improve the experience.
 
 ---
 
@@ -303,18 +518,42 @@ Examples:
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+What does my schedule look like tomorrow?
 
 **Result:**  
-<!-- App response -->
+I appreciate you asking, but I don't have access to your schedule or any personal data. I'm not connected to your calendar, apps, or any personal information.
+
+To check your schedule, you might want to look at:
+- 📅 Your calendar app (Google Calendar, Apple Calendar, Outlook, etc.)
+- 📱 Your phone's reminders or planner
+- 📓 A physical planner or notebook
+
+**What I *can* help you with as your mental coach:**
+- **Planning and prioritizing** your day once you know what's on it
+- **Preparing mentally** for any challenges or important events
+- **Managing stress** around a busy schedule
+- **Building routines** that support your wellbeing
+
+Feel free to share what's on your schedule, and I'd be happy to help you approach it with the right mindset! 💪
 
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+What time should I leave for the airport?
 
 **Result:**  
-<!-- App response -->
+That's a practical question! To help you figure out the best departure time, I'd need a few details:
+
+- **What time is your flight?**
+- **How far away is the airport?**
+- **How are you getting there?** (driving, rideshare, public transit)
+- **What type of travel?** (domestic or international)
+
+As a **general guideline:**
+- ✈️ **Domestic flights:** Arrive **2 hours** before departure
+- 🌍 **International flights:** Arrive **3 hours** before departure
+
+Once you share your details, I can help you plan a stress-free departure! 😊
 
 ---
 
@@ -323,7 +562,17 @@ Examples:
 What are some limitations of your application?
 
 **Your Answer:**  
-<!-- Write your answer here -->
+The main limitations of the application are:
+
+*No memory* the app has no conversation history between sessions. Each message is treated independently, so it cannot remember what you said earlier or track your progress over time.
+
+*No real-time data* it cannot access calendars, schedules, location, weather, or any live information. As seen in the schedule and airport prompts, it redirects the user to external tools.
+
+*No personalisation* it cannot learn about the user over time (goals, mood history, preferences).
+
+*No external tools* it cannot send reminders, set alarms, or integrate with any apps.
+
+*Response style* answers tend to be long and heavily formatted, which may feel impersonal for emotional conversations.
 
 ---
 
@@ -339,10 +588,10 @@ Then rerun your vibe check and document:
 ---
 
 **Adjustments Made:**  
-<!-- Describe what you changed -->
+Updated the system prompt to instruct the model to be more concise and conversational, avoid long bullet-point lists, and prioritize empathy before practical advice.
 
 **Results:**  
-<!-- What improved? What didn’t? -->
+Responses became noticeably warmer and more natural — less like a structured article and more like a real coaching conversation. Follow-up questions felt more personal. The main trade-off is that responses are slightly less scannable, but more emotionally appropriate for the use case.
 
 ---
 

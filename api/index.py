@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from openai import OpenAI
+import httpx
 import os
 from dotenv import load_dotenv
 
@@ -9,7 +9,6 @@ load_dotenv()
 
 app = FastAPI()
 
-# CORS so the frontend can talk to backend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -17,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+ANTHROPIC_URL = "https://lgts1tetamapi01.azure-api.net/claude/anthropic/v1/messages"
 
 class ChatRequest(BaseModel):
     message: str
@@ -28,18 +27,23 @@ def root():
 
 @app.post("/api/chat")
 def chat(request: ChatRequest):
-    if not os.getenv("OPENAI_API_KEY"):
-        raise HTTPException(status_code=500, detail="OPENAI_API_KEY not configured")
-    
+    api_key = os.getenv("ANTHROPIC_API_KEY")
+    if not api_key:
+        raise HTTPException(status_code=500, detail="ANTHROPIC_API_KEY not configured")
+
     try:
-        user_message = request.message
-        response = client.chat.completions.create(
-            model="gpt-5",
-            messages=[
-                {"role": "system", "content": "You are a supportive mental coach."},
-                {"role": "user", "content": user_message}
-            ]
+        response = httpx.post(
+            ANTHROPIC_URL,
+            params={"subscription-key": api_key},
+            json={
+                "model": "claude-sonnet-4-6",
+                "max_tokens": 1024,
+                "system": "You are a warm, supportive mental coach. Keep your responses concise and conversational — like a real coach talking to a friend. Avoid long bullet-point lists. Always be empathetic first, then practical.",
+                "messages": [{"role": "user", "content": request.message}]
+            },
+            timeout=60.0
         )
-        return {"reply": response.choices[0].message.content}
+        data = response.json()
+        return {"reply": data["content"][0]["text"]}
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error calling OpenAI API: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error calling Anthropic API: {str(e)}")
